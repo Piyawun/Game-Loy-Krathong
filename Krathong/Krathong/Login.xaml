@@ -1,0 +1,22 @@
+﻿<Window x:Class="Krathong.Login"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Krathong"
+        mc:Ignorable="d"
+        Title="Login" Height="1079.7" Width="1920" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="img/Login.png"/>
+        </Grid.Background>
+        <TextBox x:Name="username" HorizontalAlignment="Left" Height="82" Margin="736,262,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="548" FontSize="50" BorderThickness="0" TextChanged="username_TextChanged"/>
+        <PasswordBox x:Name="password" HorizontalAlignment="Left" Height="82" Margin="736,452,0,0"  VerticalAlignment="Top" Width="548" FontSize="50" BorderThickness="0" />
+        <Button x:Name="Login1" Content="Button" HorizontalAlignment="Left" Height="63" Margin="858,615,0,0" VerticalAlignment="Top" Width="200" Opacity="0" Click="Login1_Click"/>
+        <Button x:Name="Quit" Content="Button" HorizontalAlignment="Left" Margin="1397,886,0,0" VerticalAlignment="Top" Width="393" Height="54" Opacity="0" Click="Quit_Click"/>
+        <Button x:Name="Home" Content="Button" HorizontalAlignment="Left" Margin="125,886,0,0" VerticalAlignment="Top" Width="295" Height="54" Opacity="0" Click="Home_Click"/>
+        
+        
+
+    </Grid>
+</Window>

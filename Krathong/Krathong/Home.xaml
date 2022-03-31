@@ -1,0 +1,19 @@
+﻿<Window x:Class="Krathong.Home"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Krathong"
+        mc:Ignorable="d"
+        Title="Home" Height="1079.7" Width="1920" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+    <Grid x:Name="BG" Margin="10,10,4,1">
+        <Grid.Background>
+            <ImageBrush ImageSource="img/HOME.png"/>
+        </Grid.Background>
+        <Button x:Name="Info" Content="" HorizontalAlignment="Left" Margin="862,663,0,0" VerticalAlignment="Top" Width="177" Height="73" Background="{x:Null}" Click="Info_Click" Opacity="0"/>
+        <Button x:Name="Login" Content="Button" HorizontalAlignment="Left" Margin="72,365,0,0" VerticalAlignment="Top" Width="330" Height="85" Opacity="0" Click="Login_Click"/>
+        <Button x:Name="Register" Content="Button" HorizontalAlignment="Left" Margin="1388,365,0,0" VerticalAlignment="Top" Width="414" Height="71" Opacity="0" Click="Register_Click"/>
+        <Button x:Name="Quit" Content="Button" HorizontalAlignment="Left" Margin="752,795,0,0" VerticalAlignment="Top" Width="402" Height="56" Opacity="0" Click="Quit_Click"/>
+
+    </Grid>
+</Window>
